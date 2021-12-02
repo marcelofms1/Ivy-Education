@@ -1,0 +1,42 @@
+body{
+    border:1px solid red;
+}
+.main-navigation{
+    display:flex;
+    /* justify-content: center; */
+    align-items:center;
+}
+
+nav ol{
+    display:flex;
+    gap:1.5rem;
+}
+
+
+
+.main-left{
+    float:left;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.display-block{
+    display:block;
+}
+
+.main-right{
+    float:right;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+
+#circle{
+    display:flex;
+    align-self: center;
+    width:90px;
+    height:90px;
+    border: 2px solid blue;
+    border-radius:10rem;
+}
