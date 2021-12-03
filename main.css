@@ -1,42 +1,121 @@
-body{
-    border:1px solid red;
+.main-left{
+    background-image: url('img/college\ counseling.webp');
+    background-size: cover;
+    background-repeat:no-repeat
+}
+/*MAIN NAVIGATION*/
+img{
+    width:50%;
+    padding:7px;
+    border:2px solid red
 }
 .main-navigation{
     display:flex;
-    /* justify-content: center; */
+    flex-direction: row;
     align-items:center;
+    background-color: rgb(166,226,243);
+    margin-bottom:1rem;
+    border:1px solid red;
 }
 
-nav ol{
+nav, ol{
     display:flex;
-    gap:1.5rem;
+    justify-content: center;
+    list-style: none;
+    gap:1rem;
+    border:2px solid red;
 }
 
 
+.nav-btn{
+    text-decoration: none;
+    padding:.3rem;
+    border-radius: .2em;
+}
 
+.nav-btn:hover{
+    background-color: turquoise;
+}
+
+/*MAIN PAGE */
 .main-left{
+    border-radius: .4rem;
     float:left;
-    width:50%;
+    width:45%;
+    height:20rem;
+    padding:7px;
+    margin-left:.5rem;
     display:flex;
     flex-direction: column;
+    opacity: 90%;
 }
+
 
 .display-block{
     display:block;
 }
 
+.title-span{
+    color:blue;
+}
+
+button{
+    width:34%;
+    align-self:center;
+}
+
+
 .main-right{
+    border-radius: .4rem;
     float:right;
-    width:50%;
+    margin-right:.5rem;
+    width:45%;
+    height:8.4rem;
+    padding:7px;    
     display:flex;
-    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(166,226,243);
+}
+
+button{
+    background-color: #47B4ED;
+    border-radius:.3rem;
+    transition: 300ms;
+    width:50%
+}
+
+button:hover{
+    background-color: #026ea7;
+    color:white;
 }
 
 #circle{
     display:flex;
+    justify-content: center;
+    align-items: center;
     align-self: center;
-    width:90px;
-    height:90px;
-    border: 2px solid blue;
+    width:10px;
+    height:10px;
+    border: .01rem solid whitesmoke;
     border-radius:10rem;
+    transition:1000ms ease-in-out;
+}
+
+.main-right:hover #circle{
+    width:70px;
+    height:70px;
+    transform:rotate(360deg);
+    border: .5rem solid #47B4ED;
+}
+
+
+.main-right:hover #circle::after{
+    content:"99%";
+}
+
+.right-text{
+    padding-left:1rem;
+    padding-top:2rem;
+    width:60%;
+    text-align:center;
 }
