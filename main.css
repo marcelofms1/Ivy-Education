@@ -1,10 +1,96 @@
-body{
+.title{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title h1{
+    text-decoration: underline;
+}
+
+h1 span{
+    font-size: 15px;
+    display:block;
+    text-decoration:none;
+}
+
+#container{
+    height:60vh;
+    margin-top:3%;
+    margin-left:5%;
+    margin-right:5%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:1.5rem;
+}
+
+#container div{
+    background-color:lightskyblue;
+    /* outline:2px solid black; */
+    display:flex;
+    align-items:center;
+    border-radius: .2rem;
+    box-shadow: 8px 8px 5px gray;
+
+}
+
+/* HEADER */
+.container-1{
+    grid-column:span 4;
+    justify-content:space-between; 
+    padding:.5rem;
+}
+
+
+.container-1 img{
+    width:20%;
+    margin-left:5%;
+}
+
+nav{
+    margin-right:5%;
+}
+nav a{
+    padding-left:10px;
+}
+/* HEADER */
+
+.container-2{
+    grid-row:span 2;
+}
+.container-3{
+    grid-row:span 2;
+}
+.container-4{
+    grid-column: span 2;
+    height:25vh;
+}
+.container-5{
+    grid-column: span 2;
+    height:25vh;
+
+}
+.container-6{
+    grid-column:span 4;
+    height: 10vh;
+}
+/* GRID END */
+
+/* HEADER */
+
+
+
+/* body{
     padding-left:70px;
     padding-right:70px;
     font-size:20px;
-}
+} */
+
 /*MAIN NAVIGATION*/
-img{
+/* img{
     width:50%;
     padding:7px;
 }
@@ -19,8 +105,6 @@ img{
 #asca{
     width: 10%;
     float:left;
-    /* padding-right:50%;
-    padding-bottom:50%; */
 }
 
 .main-navigation{
@@ -36,11 +120,11 @@ nav{
     padding-right:10%;
     list-style: none;
     gap:1rem;
-    /* border:2px solid red; */
-}
+} */
 
 
-.nav-btn{
+
+/* .nav-btn{
     text-decoration: none;
     padding:.3rem;
     border-radius: .2em;
@@ -50,10 +134,10 @@ nav{
 .nav-btn:hover{
     background-color: antiquewhite;
     font-size: 25px;
-}
+} */
 
 /*MAIN PAGE */
-.main-left{
+/* .main-left{
     border-radius: .4rem;
     float:left;
     width:45%;
@@ -102,7 +186,6 @@ button{
     flex-direction:column;
     justify-content: center;
     align-items:center;
-    /* background-color: rgb(166,226,243); */
 }
 
 button{
@@ -146,4 +229,4 @@ button:hover{
     padding-top:2rem;
     width:80%;
     text-align:center;
-}
+} */
