@@ -1,3 +1,6 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
 .title{
     display:flex;
     flex-direction: column;
@@ -28,8 +31,7 @@ h1 span{
 }
 
 #container div{
-    background-color:lightskyblue;
-    outline:2px solid black;
+    /* outline:2px solid black; */
     display:flex;
     align-items:center;
     border-radius: .2rem;
@@ -41,9 +43,9 @@ h1 span{
 .container-1{
     grid-column:span 4;
     justify-content:space-between; 
-    padding:.5rem;
+    padding:1rem;
+    background-color:lightskyblue;
 }
-
 
 .container-1 img{
     width:20%;
@@ -93,24 +95,65 @@ nav a{
     flex-direction:column;
     padding:1rem;
     gap:2.5rem;
+    background-color:lightskyblue;
 }
 
 .container-2 button{
-    background-color: lightcyan;
+    background-color:darkcyan;
+    transition: 300ms ease-in-out;
+    border:none;
+    padding:.5rem;
+}
+
+.container-2 button:hover{
+    background-color:lightcyan;
+    box-shadow:4px 4px 2px rgb(17, 118, 152);
 }
 
 /* GRID-1 END */
+
+/* GRID-2 START */
+
 .container-3{
     grid-row:span 2;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding:1rem;
 }
+
+.container-3 #circle{
+    width:0%;
+    height:0%;
+    transition:900ms ease-in-out;
+    justify-content: center;
+}
+
+.container-3:hover #circle{
+    width:8rem;
+    height:8rem;
+    border-radius: 20rem;
+    border:1rem solid lightskyblue;
+}
+
+
+.container-3:hover #circle::after{
+    content:"99%";
+    font-style: italic;
+    font-size:130%;
+}
+
+/* GRID-2 END */
 .container-4{
     grid-column: span 2;
     height:25vh;
+    background-color:lightskyblue;
 }
 .container-5{
     grid-column: span 2;
     height:25vh;
-
+    background-color:lightskyblue;
 }
 .container-6{
     grid-column:span 4;
