@@ -36,6 +36,7 @@ h1 span{
     align-items:center;
     border-radius: .2rem;
     box-shadow: 8px 8px 5px gray;
+    outline: 2px solid black;
 
 }
 
@@ -101,8 +102,9 @@ nav a{
 .container-2 button{
     background-color:darkcyan;
     transition: 300ms ease-in-out;
-    border:none;
+    /* border:none; */
     padding:.5rem;
+    border-radius: .3rem;
 }
 
 .container-2 button:hover{
@@ -121,6 +123,11 @@ nav a{
     justify-content: center;
     align-items:center;
     padding:1rem;
+    gap:2rem;
+}
+
+.container-3 p{
+    text-align: center;
 }
 
 .container-3 #circle{
