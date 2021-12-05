@@ -29,7 +29,7 @@ h1 span{
 
 #container div{
     background-color:lightskyblue;
-    /* outline:2px solid black; */
+    outline:2px solid black;
     display:flex;
     align-items:center;
     border-radius: .2rem;
@@ -37,7 +37,7 @@ h1 span{
 
 }
 
-/* HEADER */
+/* HEADER START*/
 .container-1{
     grid-column:span 4;
     justify-content:space-between; 
@@ -54,13 +54,52 @@ nav{
     margin-right:5%;
 }
 nav a{
-    padding-left:10px;
+    padding:.7rem;
+    border-radius: .3rem;
+    background-color:darkcyan;
+    text-align:center;
+    margin-right:1.3rem;
+    transition: 300ms ease-in-out;
 }
-/* HEADER */
+
+#home-btn:hover{
+    background-color:lightcyan;
+    box-shadow:4px 4px 2px rgb(17, 118, 152);
+}
+#about-btn:hover{
+    background-color:lightcyan;
+    box-shadow:4px 4px 2px rgb(17, 118, 152);
+}
+#courses-btn:hover{
+    background-color:lightcyan;
+    box-shadow:4px 4px 2px rgb(17, 118, 152);
+}
+#contact-btn:hover{
+    background-color:lightcyan;
+    box-shadow:4px 4px 2px rgb(17, 118, 152);
+}
+#blog-btn:hover{
+    background-color:lightcyan;
+    box-shadow:4px 4px 2px rgb(17, 118, 152);
+}
+
+/* HEADER END*/
+
+/* GRID-1 START */
 
 .container-2{
     grid-row:span 2;
+    display:flex;
+    flex-direction:column;
+    padding:1rem;
+    gap:2.5rem;
 }
+
+.container-2 button{
+    background-color: lightcyan;
+}
+
+/* GRID-1 END */
 .container-3{
     grid-row:span 2;
 }
@@ -79,7 +118,6 @@ nav a{
 }
 /* GRID END */
 
-/* HEADER */
 
 
 
