@@ -158,6 +158,7 @@ nav a{
 .container-2 h2{
     line-height: 2rem;
     font-size: 35px;
+    text-decoration: underline;
 }
 
 /* GRID-1 END */
@@ -176,6 +177,10 @@ nav a{
 
 .container-3 p{
     text-align: center;
+}
+
+#circle{
+    font-size:30px;
 }
 
 .container-3 #circle{
