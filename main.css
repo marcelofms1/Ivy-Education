@@ -31,8 +31,8 @@ h1 span{
 #container{
     height:80vh;
     /* margin-top:3%; */
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:10%;
+    margin-right:10%;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
