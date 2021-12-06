@@ -29,8 +29,7 @@ h1 span{
 
 /* CONTAINERS START */
 #container{
-    height:80vh;
-    /* margin-top:3%; */
+    min-height:95vh;
     margin-left:10%;
     margin-right:10%;
     display:grid;
@@ -80,10 +79,11 @@ h1 span{
     justify-content:space-between; 
     padding:1rem;
     background-color:#caf0f8;
+    height:20vh;
 }
 
 .container-1 img{
-    width:20%;
+    width:30%;
     margin-left:5%;
 }
 
@@ -221,7 +221,7 @@ nav a{
 }
 
 .container-4 #counseling-img{
-    width:70%;
+    width:80%;
     height:33vh;
     border-radius: .3rem;
 }
